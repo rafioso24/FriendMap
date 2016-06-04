@@ -1,6 +1,7 @@
-
-
-
-public static void main String(args[]){
-	system.out.println("Hello Github");
+public class FriendMap{
+	public static void main(String [ ] args){
+		System.out.println("Hello Github");
+	}	
 }
+
+
