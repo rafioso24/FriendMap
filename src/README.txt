@@ -6,15 +6,6 @@ Uses
 -Facebook Graph API
 -Google Maps API
 
-File Structure
-	FriendMap
-		lib - Jar files
-		src- README, TXT files
-				CustomMap - Package level: Java files & Classes
-
-Fully Qualified Class names
-customMap.FriendMap
-customMap.Parser
 
 How to Use
 1. go to the graph explorer
@@ -33,11 +24,9 @@ https://developers.facebook.com/tools/explorer
 Requirements
 json-20131018.jar in the build path
 
-Compilation (From FriendMap Directory)
-javac -cp lib/javax.json-1.0.jar src/CustomMap/Parser.java src/CustomMap/FriendMap.java
+Compilation
+javac -cp lib/javax.json-1.0.jar Parser.java FriendMap.java
 
-Running (From customMap Directory)
-java FriendMap
 
 
 Download javax.json jar file.
